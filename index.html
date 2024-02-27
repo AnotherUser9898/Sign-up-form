@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/avrile-sans-ui" type="text/css"/>
+        <script src = "sign-up-form.js" defer></script>
+</head>
+<body>
+        <aside class="left-side">
+                <div class="side-card">
+                        <img class = "side-image" src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="An image in the left side for asthetic purposes">
+                        <div class="side-body">
+                                <div class="odin-logo-background"></div>
+                                <div class="odin-logo-and-text">
+                                        <img src="images/odin-lined.png" alt="" class="odin-logo">
+                                        <div class = "odin">ODIN</div>
+                                </div>
+                        </div>
+                </div>
+        </aside>
+
+        <div class="right-side">
+                <div class="top-part">
+                        <div class="top-text">
+                                <div class = "first-line">This is not a real online service! You know you need something like this in your life to realize your deepest dreams.</div>
+                                <div class = "second-line">Sign Up <em>now</em> to get started</div>
+                                <div class = "third-line">You <em>know </em> you want to</div>
+                        </div>
+                </div>
+
+
+                <form action="post">
+                        <div class="middle-part">
+                                <div class="first-middle-line">Let's do this!</div>
+                                <div class="name form-input">
+                                        <div class="first-name-div label-and-input">
+                                                <label for="first-name">FIRST NAME</label>
+                                                <input type="text" id = "first-name" name = "first-name">
+                                        </div>
+                                        <div class="last-name-div label-and-input">
+                                                <label for="last-name">LAST NAME</label>
+                                                <input type="text" id = "last-name" name = "last-name" >
+                                        </div>
+                                </div>
+                                <div class="contact-information form-input">
+                                        <div class="email-div label-and-input">
+                                                <label for="email">EMAIL</label>
+                                                <input type="text" id = "email" name = "email-id">
+                                        </div>
+                                        <div class="phone-number-div label-and-input">
+                                                <label for="phone-number">PHONE NUMBER</label>
+                                                <input type="text" id = "phone-number" name = "phone-number" >
+                                        </div>
+                                </div>
+
+                                <div class="password-information form-input">
+                                        <div class="password-input-div label-and-input">
+                                                <label for="password">PASSWORD</label>
+                                                <input type="password" id = "password" name = "password" class = "error">
+                                                <div class="checkPassword"></div>
+                                        </div>
+                                        <div class="confirm-password-div label-and-input">
+                                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                                <input type="password" id = "confirm-password" name = "confirm-password" class = "error">
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class = bottom-part>
+                                <button class = "create-account-button">Create Account</button>
+                                <div>Already have an account? <a href="#">Log in</a></div>
+                        </div>
+                </form>
+        </div>
+
+</body>
+</html>

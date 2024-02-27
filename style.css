@@ -1,0 +1,196 @@
+@font-face {
+        font-family: Norse-Bold;
+        src: url(fonts/Norse-Bold.otf)
+}
+body {
+        height: 100vh;
+        font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        display: flex;
+        margin: 0;
+}
+
+.side-card {
+        position: relative;
+}
+
+
+.left-side {
+        height: 100vh;
+        
+}
+
+.odin-logo-and-text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+}
+.side-body {
+        position: absolute;
+        top: 25%;
+        bottom: 70%;
+        z-index: 1;
+        width:100%;
+        height: fit-content;
+        
+}
+
+.odin-logo-background {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: black; 
+        z-index: -1;
+        opacity: 50%;
+}
+
+.odin {
+        font-family: Norse-Bold;
+        font-size: 6em;
+        color: white;
+        opacity: 100%
+}
+
+.odin-logo {
+        height: 150px;
+        width: 120px;
+}
+
+.side-image {
+        height: 100vh;
+        
+
+}
+
+.right-side {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-grow: 1;
+}
+
+
+
+.bottom-part,.top-part {
+        background-color:gray;
+        filter: brightness(1.90);
+}
+
+.middle-part {
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-bottom: 10px;
+}
+
+.bottom-part {
+        flex-grow: 1;
+        font-weight: bold;
+}
+
+.middle-part,.bottom-part,.top-part {
+        padding-left: 2em;
+        font-family:'AvrileSansUIRegular';
+}
+
+
+.top-part {
+        padding-top: 6em;
+        font-weight: bolder;
+        font-size: 1.2em;
+}
+
+.third-line {
+        padding-top: 1em;
+        padding-bottom: 3em;
+}
+
+.create-account-button {
+        padding: 1em 2em;
+        margin-bottom: 1em;
+        margin-top: 0.75em;
+        color: white;
+        font-weight: bold;
+        background-color: #596D48;
+        border-radius: 5px;
+        filter: brightness(0.5);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        border: #596D48 1px solid;
+
+}
+.form-input {
+        display: flex;
+        justify-content: flex-start;
+        gap: 4em;
+        margin-bottom: 1em;
+}
+
+.label-and-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+}
+
+form {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+}
+
+.first-middle-line {
+        font-size: 1.2em;
+        font-weight: bolder;
+        margin-bottom: 0.75em;
+        color: gray;
+        filter: brightness(0.5);
+}
+
+.top-text {
+        width: 70%;
+}
+
+label {
+        font-size: 0.6em;
+        font-weight: bolder;
+        font-family: 'AvrileSansUIRegular';;
+        color: gray;
+        filter: brightness(0.7);
+        letter-spacing: 1px;
+}
+
+input {
+        border: 1px gray solid;
+        filter: brightness(1.8);
+        border-radius: 3px;
+        height: 18px;
+        width: 16em;
+}
+
+input:focus {
+        outline: 2px solid royalblue;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.error:not(:focus) {
+        outline: 1px gray solid;
+}
+
+a {
+        text-decoration: none;
+        color: #596D48;
+        font-weight: bolder;
+        filter: brightness(0.5);
+}
+
+.checkPassword {
+        color: red;
+        font-size:x-small;
+}
+
+
+
