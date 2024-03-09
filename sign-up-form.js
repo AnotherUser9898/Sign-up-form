@@ -3,9 +3,7 @@ const confirmPasswordInput = document.querySelector("#confirm-password");
 const passwordInputs = document.querySelectorAll(".error");
 const passwordAlert = document.querySelector(".checkPassword");
 
-function checkPassword(mutations) {
 
-}
 passwordInputs.forEach((element) => {
         element.addEventListener("input",() => {
                 console.log(passwordInput.value);

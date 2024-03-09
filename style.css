@@ -176,9 +176,6 @@ input:focus {
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.error:not(:focus) {
-        outline: 1px gray solid;
-}
 
 a {
         text-decoration: none;
